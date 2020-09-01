@@ -43,6 +43,7 @@ public class MyStack {
 
 	}
 	public void show() {
+		System.out.print("Element:");
 		for(int n:stack) {
 			System.out.print(n+" ");
 		}
